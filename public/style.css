@@ -1,0 +1,135 @@
+@import url('https://fonts.googleapis.com/css2?family=Alice&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Signika+Negative&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=PT+Serif&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.front{
+    background-image:url("images/cover_back.avif");
+    background-size: 100vh;
+    background-size: cover;
+    min-height: 100vh;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.title{
+    font-size: 13vh;
+    font-family: 'Titan One', sans-serif;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.header{
+    display: flex;
+    flex-direction: column;
+    padding: 30px;
+}
+.footer{
+   position:absolute;
+   bottom:0;
+   width:100%;
+   left: 85vh;
+}
+
+.start{
+    display: flex;
+    flex-direction: column;
+    font-family: 'Alice', serif;
+    padding-left: 90px;
+    margin-top: 55px;
+}
+
+.singleOption{
+    font-size: 19px;
+    margin: 5px;
+    background-color: #fefee6;
+    height: 45px;
+    width: 50rem;
+}
+
+.select{
+    background-color: rgb(7, 207, 0);
+    color: white;
+}
+
+.wrong{
+    background-color: red;
+    color: white;
+}
+
+.controls{
+    display: flex;
+    flex-direction: row;
+    top: 39rem;
+    left: 75px;
+    position: absolute;
+}
+
+.greet {
+    font-family: 'Signika Negative', sans-serif;
+    font-weight: 100;
+    font-size: 6vh;
+    position: absolute;
+    left: 34vh;
+    transform: translate(-50%,-50%);
+    text-align: center;
+    color: #f7f5eb;
+    text-shadow: 3px 3px 0px #FFB650, 3px 3px 0px #FFD662, 4px 4px 0px #FF80BF, 4px 4px 0px #EF5097, 5px 5px 0px #6868AC, 3px 3px 0px #90B1E0;
+    margin-top: 25px;
+  }
+
+  .quizInfo{
+    font-style: oblique;
+    font-size: x-large;
+    position: absolute;
+    top: 240px;
+    left: 13rem;
+  }
+
+  .quesblock {
+    box-sizing: border-box;
+    box-shadow: 5px 2px #00000087;
+    border: 2px solid black;
+    position: absolute;
+    top: 17rem;
+    width: 50%;
+    border-radius: 10px;
+    left: 20px;
+    font-size: 23px;
+    padding: 12px;
+    height: 20rem;
+  }
+
+  .stmt{
+    font-size: 20px;
+    font-family: 'PT Serif', serif;
+  }
+
+  .options {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: normal;
+    width: 30rem;
+    height: 10rem;
+    padding: 10px;
+}
+
+.finalscore{
+    position: absolute;
+    left: 10rem;
+    top: 17rem;
+    font-size: 38px;
+    box-shadow: 9px 9px #ff7500f5;
+    box-sizing: border-box;
+    border: 5px solid #ff9e00;
+    padding: 27px;
+    text-transform: uppercase;
+    background-color: #eac6cc;
+    font-family: 'Signika Negative';
+    color: #ff7500f5;
+}
